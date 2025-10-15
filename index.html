@@ -3,25 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuteflix</title>
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- Fonte adicionada do google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <title>Comfyflix</title>
 </head>
+
 <body>
     <header>
-        <h2>Cuteflix</h2>
+     <nav>
+        <img src="./img/png-pipoca.png" alt="">
+        <h1 class="comfyflix">Comfyflix</h1>
+     </nav>
+
+     <h2 class="slogan">Seu cinema para dias de conforto.</h2>
+
+        <ul class="menu">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Séries</a></li>
+        <li><a href="#">Filmes</a></li>
+        <li><a href="#">Animes</a></li>
+        <li><a href="#">K-Dramas</a></li>
+        <li><a href="#">Seus favoritos</a></li>
+        </ul>
+     
     </header>
 
     <!-- Conteúdo principal -->
     <main>
+        <section class="banner">
+
+        </section>
+
+
         <!-- Card 1 -->
-        <div>
-            <img src="https://www.republicrecords.com/cdn/shop/files/REPU-00092_KPOP_DemonHunters_CollectionPage-Banner-02Mobile.png?v=1751556728&width=900" alt="Card do filme K-POP Demon Hunters com as três personagens principais posando" />
-            <h2>K-POP Demons Hunters</h2>
-            <botton>Assistir agora</botton>
+        <div class="container_cards">
+            <div class="card">
+                <img src="./img/banner-demonhunters.webp" alt="Card do filme K-POP Demon Hunters com as três personagens principais posando" />
+                <h2>K-POP Demon Hunters</h2>
+                <button id="bt1">Assistir agora</button>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="./img/banner-catdepressed.jpg" alt="Banner do anime The Masterful Cat Is Depressed Again Today"/>
+                <h2>The Masterful Cat Is Depressed Again Today</h2>
+                <button id="bt2">Assistir agora</button>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="./img/banner-yourname.jpg" alt="Banner do filme Your name (Kimi no Na wa)"/>
+                <h2>Your name (Kimi no Na wa)</h2>
+                <button id="bt3">Assistir agora</button>
+            </div>
+
+            <!-- Card 4 -->
+           <div class="card">
+                <img src="./img/banner-fruitsbasket.jpg" alt="Banner do anime Fruits Basket">
+                <h2>Fruits Basket</h2>
+                <button id="bt4">Assistir agora</button>
+            </div>
+            
+            <!-- Card 5 -->
+           <div class="card">
+                <img src="./img/banner-aggrestsuko.webp" alt="Banner do anime Aggretsuko">
+                <h2>Aggretsuko</h2>
+                <button id="bt5">Assistir agora</button>            
+            </div>
         </div>
-
-        <!-- Card 2 -->
          
-
     </main>
 
 
